@@ -12,4 +12,4 @@ matplotlib
 seaborn
 requests
 beautifulsoup4
-sqlalchemy
+sqlalchemygit 
