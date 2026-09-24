@@ -1,0 +1,64 @@
+TITANIC DATA PROFILE
+============================================================
+
+SHAPE
+(891, 15)
+
+INFO
+<class 'pandas.DataFrame'>
+RangeIndex: 891 entries, 0 to 890
+Data columns (total 15 columns):
+ #   Column       Non-Null Count  Dtype   
+---  ------       --------------  -----   
+ 0   survived     891 non-null    int64   
+ 1   pclass       891 non-null    int64   
+ 2   sex          891 non-null    str     
+ 3   age          714 non-null    float64 
+ 4   sibsp        891 non-null    int64   
+ 5   parch        891 non-null    int64   
+ 6   fare         891 non-null    float64 
+ 7   embarked     889 non-null    str     
+ 8   class        891 non-null    category
+ 9   who          891 non-null    str     
+ 10  adult_male   891 non-null    bool    
+ 11  deck         203 non-null    category
+ 12  embark_town  889 non-null    str     
+ 13  alive        891 non-null    str     
+ 14  alone        891 non-null    bool    
+dtypes: bool(2), category(2), float64(2), int64(4), str(5)
+memory usage: 80.7 KB
+
+
+DESCRIBE
+          survived      pclass   sex         age  ...  deck  embark_town  alive alone
+count   891.000000  891.000000   891  714.000000  ...   203          889    891   891
+unique         NaN         NaN     2         NaN  ...     7            3      2     2
+top            NaN         NaN  male         NaN  ...     C  Southampton     no  True
+freq           NaN         NaN   577         NaN  ...    59          644    549   537
+mean      0.383838    2.308642   NaN   29.699118  ...   NaN          NaN    NaN   NaN
+std       0.486592    0.836071   NaN   14.526497  ...   NaN          NaN    NaN   NaN
+min       0.000000    1.000000   NaN    0.420000  ...   NaN          NaN    NaN   NaN
+25%       0.000000    2.000000   NaN   20.125000  ...   NaN          NaN    NaN   NaN
+50%       0.000000    3.000000   NaN   28.000000  ...   NaN          NaN    NaN   NaN
+75%       1.000000    3.000000   NaN   38.000000  ...   NaN          NaN    NaN   NaN
+max       1.000000    3.000000   NaN   80.000000  ...   NaN          NaN    NaN   NaN
+
+[11 rows x 15 columns]
+
+MISSING PERCENTAGE
+survived        0.000000
+pclass          0.000000
+sex             0.000000
+age            19.865320
+sibsp           0.000000
+parch           0.000000
+fare            0.000000
+embarked        0.224467
+class           0.000000
+who             0.000000
+adult_male      0.000000
+deck           77.216611
+embark_town     0.224467
+alive           0.000000
+alone           0.000000
+dtype: float64

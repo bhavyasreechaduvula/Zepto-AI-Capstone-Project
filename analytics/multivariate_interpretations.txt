@@ -1,0 +1,21 @@
+
+
+1. Survival Rate by Sex and Passenger Class:
+Female passengers generally show higher survival rates than male passengers.
+Survival also varies across passenger classes, showing that both sex and class
+are related to the survival outcome.
+
+2. Age Distribution by Survival and Sex:
+The age distributions differ between survivors and non-survivors.
+The chart also shows how the age pattern varies between male and female
+passengers.
+
+3. Fare Distribution by Class and Survival:
+Passenger class is associated with fare levels because higher classes
+generally paid higher fares. The distribution also shows differences in
+fare values between survivors and non-survivors.
+
+4. Family Size, Class and Survival:
+Survival rates vary with family size and passenger class.
+Very small and very large family groups can show different survival
+patterns across passenger classes.

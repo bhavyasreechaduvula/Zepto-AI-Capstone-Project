@@ -1,0 +1,10 @@
+MULTIVARIATE LINEAR REGRESSION
+==================================================
+
+MAE: 21.138552296883116
+RMSE: 41.746502315739114
+R2: 0.34677389181134044
+Adjusted R2: 0.3117796360155194
+
+Heteroscedasticity statement:
+Residual spread varies substantially across prediction ranges, suggesting possible heteroscedasticity.

@@ -1,0 +1,14 @@
+
+Class imbalance analysis conclusion:
+
+The method with the highest recall in this test set was
+class_weight='balanced' with recall
+0.7500.
+
+The method with the highest F1 score was
+SMOTE with F1 score
+0.7353.
+
+SMOTE was applied only to the training fold after the preprocessing
+step was fitted on training data. The test data was kept unchanged
+for evaluation.

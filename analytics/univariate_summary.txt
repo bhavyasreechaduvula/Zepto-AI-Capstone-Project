@@ -1,0 +1,12 @@
+UNIVARIATE ANALYSIS
+==================================================
+
+Age IQR outliers: 65
+Fare IQR outliers: 114
+
+Fare mean: 32.09668087739032
+Fare median: 14.4542
+Fare mode: 8.05
+Fare skew: 4.801440211044194
+Skew direction: Right-skewed
+Ordering: Mean > Median > Mode

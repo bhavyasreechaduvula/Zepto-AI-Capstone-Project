@@ -1,0 +1,15 @@
+
+Final classifier recommendation:
+
+The classification models were compared using accuracy,
+precision, recall, F1 score and ROC-AUC.
+
+Based on the F1 score on the fixed test set, the model selected
+for the final pipeline is Random Forest.
+
+The final model should still be interpreted using all reported
+metrics rather than F1 alone because precision, recall and ROC-AUC
+describe different aspects of classification performance.
+
+The complete fitted pipeline for the selected classifier is saved
+and will be reloaded in the next step for a raw-input prediction.
