@@ -463,3 +463,6 @@ The API response follows this schema:
   "sources": ["string"],
   "confidence": 1.0
 }
+### Testing
+
+The FastAPI `/ask` endpoint was tested successfully with delivery-fee and order-cancellation queries, both returning HTTP 200 responses.
